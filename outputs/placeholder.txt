@@ -1,1 +1,17 @@
+🖼️ Imagem: uma mulher nas nuvens.png
+🔍 Analisando 'uma mulher nas nuvens.png'...
+(Aguarde enquanto o algoritmo contempla a arte...)
+📜 Texto 'reconhecido':
+Ela escreve sonhos com as mãos vazias.
 
+🖼️ Imagem: passarinhos jogando jogo da velha.png
+🔍 Analisando 'passarinhos jogando jogo da velha.png'...
+(Aguarde enquanto o algoritmo contempla a arte...)
+📜 Texto 'reconhecido':
+O melro venceu três partidas seguidas.
+    
+    for img in imagens:
+        print(f"\n🖼️ Imagem: {img}")
+        texto = ocr_fake(img)
+        print("📜 Texto 'reconhecido':")
+        print(texto)
